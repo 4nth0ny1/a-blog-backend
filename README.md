@@ -1,5 +1,3 @@
-Blog Anon = Anonymous Blogging. Might be true, might not. Just ideas without the person. Read at your own risk.
-
 Premise:
 Create an advanced blog
 tracks the mouse clicks. keyboard inputs
