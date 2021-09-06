@@ -6,9 +6,9 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-subject_one = Subject.create(topic: "simpsons")
-subject_two = Subject.create(topic: "chuck norris")
-subject_three = Subject.create(topic: "nasa")
+subject_one = Subject.create(topic: "simpsons", description: "great tv show")
+subject_two = Subject.create(topic: "chuck norris", description: "i should have been rocky!")
+subject_three = Subject.create(topic: "nasa", description: "go boldly into the unknown")
 
 blog_one = Blog.create(title: "Crusty byes a law firm", content: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.", signature: "BartsSlingShot", rank: 1, subject_id: subject_one.id)
 
