@@ -1,4 +1,4 @@
 class SubjectSerializer < ActiveModel::Serializer
   has_many :blogs
-  attributes :id, :topic
+  attributes :id, :topic, :description
 end
