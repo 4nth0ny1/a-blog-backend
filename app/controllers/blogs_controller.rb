@@ -9,6 +9,7 @@ class BlogsController < ApplicationController
 
     def create
         blog = Blog.new(blog_params)
+       
         if blog.save
             render json: blog
         end

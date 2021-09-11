@@ -1,4 +1,4 @@
 class Blog < ApplicationRecord
-    has_many :comments
-    belongs_to :subject
-end 
+    has_many :comments, dependent: :destroy
+    belongs_to :subject, required: false
+end
