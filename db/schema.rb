@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(version: 2021_09_13_005004) do
     t.integer "subject_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.text "abstract"
     t.index ["subject_id"], name: "index_blogs_on_subject_id"
   end
 
